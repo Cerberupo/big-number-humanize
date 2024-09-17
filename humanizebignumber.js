@@ -126,7 +126,7 @@
         { minLength: 301, suffix: 'NoNog' },  // 1e300
         { minLength: 304, suffix: 'C' },  // 1e303
         { minLength: 307, suffix: 'Uc' },  // 1e306
-    ];
+    ].reverse();
 
     // Iterate over the thresholds to format the number according to the length of the integer part.
     for (let i = 0; i < THRESHOLDS.length; i++) {
@@ -137,7 +137,7 @@
             const leadingDigits = integerStr.slice(0, integerEnd);
 
             // We format with decimals
-            const formatted = (leadingDigits + '.' + integerStr.slice(integerEnd, integerEnd + decimalPlaces));
+            const formatted = (leadingDigits + (decimalPlaces ? '.' + integerStr.slice(integerEnd, integerEnd + decimalPlaces) : ''));
             return (isNegative ? '-' : '') + formatted + suffix;
         }
     }
