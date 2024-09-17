@@ -1,7 +1,7 @@
 {
   "name": "humanizebignumber.js",
   "description": "A function for humanize large numbers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "humanize",
     "big",
