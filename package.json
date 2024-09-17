@@ -1,0 +1,47 @@
+{
+  "name": "humanizebignumber.js",
+  "description": "A function for humanize large numbers",
+  "version": "1.0.0",
+  "keywords": [
+    "humanize",
+    "big",
+    "number",
+    "decimal",
+    "float",
+    "biginteger",
+    "bigdecimal",
+    "bignumber",
+    "bigint",
+    "bignum"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cerberupo/humanizebignumber.js.git"
+  },
+  "main": "humanizebignumber",
+  "module": "humanizebignumber.mjs",
+  "browser": "humanizebignumber.js",
+  "types": "humanizebignumber.d.ts",
+  "exports": {
+    ".": {
+      "types": "./humanizebignumber.d.ts",
+      "require": "./humanizebignumber.js",
+      "import": "./humanizebignumber.mjs",
+      "browser": "./humanizebignumber.js"
+    },
+    "./humanizebignumber.mjs": "./humanizebignumber.mjs",
+    "./humanizebignumber.js": "./humanizebignumber.js",
+    "./package.json": "./package.json"
+  },
+  "author": {
+    "name": "Jaime Gómez Cimarro",
+    "email": "cerberupo@gmail.com"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "license": "MIT",
+  "scripts": {
+  },
+  "dependencies": {}
+}
