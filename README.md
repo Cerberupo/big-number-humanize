@@ -1,2 +1,2 @@
-# big-number-humanize
-Humanice big string number
+# humanizebignumber.js
+Humanize big string number
